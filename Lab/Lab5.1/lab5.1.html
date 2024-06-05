@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5.1 Поліщук Дмитро ІС-13</title>
+</head>
+<body>
+    <section>
+    <h1>Завдання 1</h1>
+    <p>Напишіть функцію getProductDetails, яка приймає ідентифікатор товару productId та дві колбек-функції successCallback та errorCallback.</p>
+    <p>Функція getProductDetails повинна отримати деталі про вказаний товар та передати їх у successCallback.</p>
+    <p>У випадку якщо товар не знайдено, викликається errorCallback і передається повідомлення про помилку</p>
+
+    <button id="getProductButton">Get Product Details</button>
+    <div id="output"></div>
+    </section>
+    <section>
+    <h1>Завдання 2</h1>
+    <p>З об'єкту concerts отримати масив, який буде містити лише імена міст.  З масиву потрібно прибрати міста, в яких концерт  уже пройшов і   відсортувати їх у хронологічному порядку</p>
+    <p>Результат вивести у консоль. Очікуваний результат ["Одеса", "Умань", "Харків"]. Застосувати стрілочні функції</p>
+    <button id="getConcertCitiesButton">Get Concert Cities</button>
+    <div id="output2"></div>
+    </section>
+    <section>
+    <h1>Завдання 3</h1>
+    <p>Напишіть функцію, яка приймає массив об'єктів і повертає новий массив об'єктів,у якому є знижка на  30 % на всі медикаменти ціна, яких перевищує 300 грн у масиві </p>
+    <p>Надайте ід для кожного медикамента</p>
+    <button id="applyDiscountButton">Apply Discount</button>
+    <div id="medicinesOutput"></div>
+    </section>
+    <section>
+    <h1>Завдання 4</h1>
+    <p>Напиши функцію конструктор Storage який створює об'єкти. Для управління складом товарів. При виклику отримуватиме один агрумент - початковий масив товарів,  і записувати їх у властивість items. </p>
+    <p>Додай методи класу:   getItems() - повертайте масив товарів, addItems(item) - отримує новий товар та додає його до поточних, removeItem(item) - отримує товар і, якщо він є, видаляє його з поточних </p>
+    <button id="showItemsButton">Show Items</button>
+    <button id="addItemButton">Add Item</button>
+    <button id="removeItemButton">Remove Item</button>
+    <div id="storageOutput"></div>
+    </section>
+    <section>
+    <h1>Завдання 5</h1>
+    <p>Поверніть об'єкт, в якому вказано кількість тегів.</p>
+    <p>Очікуваний результат {js: 3, nodejs: 3, html: 2, css: 2, react: 2}</p>
+    <button id="countTagsButton">Count Tags</button>
+    <div id="tagsOutput"></div>
+    </section>
+    <section>
+    <h1>Завдання 6</h1>
+    <p>Напишіть функцію checkBrackets(str) яка приймає рядок жс коду (someFn)  і перевіряє правильність закриття дужок () {} []</p>
+    <p>Якщо рядок містить коректний код функція повертає true.В іншому випадку повертає false</p>
+    <button id="checkBracketsButton">Check Brackets</button>
+    <div id="bracketsOutput"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
